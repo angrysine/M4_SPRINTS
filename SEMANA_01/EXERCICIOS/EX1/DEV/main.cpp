@@ -99,7 +99,7 @@ int dirige(int *v,int maxv){
 	while(dirigindo){		
 		int medida = pergunta("ensira o valor da medida ")/// .. Chame a função de de leitura da medida para a "Direita"
 		medida = converteSensor(medida,0,830);
-		posAtualVetor =armazenaValorVetor(medida, vetorMov, maxVetor, posAtualVetor) // Chame a função para armazenar a medida no vetor
+		posAtualVetor =armazenaValorVetor(medida, vetorMov, maxVetor, posAtualVetor); // Chame a função para armazenar a medida no vetor
         ///////////////////////////////////////////////////////////////////////////		
 		// Repita as chamadas acima para a "Esquerda", "Frente", "Tras"
 	
